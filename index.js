@@ -91,7 +91,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Hello to my self 🤕");
+  res.send(`<h1>Hello to my self 🤕</h1>`);
 });
 
 app.listen(port, () => {
